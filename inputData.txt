@@ -1,0 +1,40 @@
+DirectionToLight 0.0 1.0 0.0
+LightColor 1.0 1.0 1.0
+AmbientLight 0.6 0.6 0.6
+BackgroundColor 0.0157 0.7490 0.7608
+
+# starter cube
+Cube
+  -1.0 -1.0 1.0
+  1.0 -1.0 1.0
+  1.0 1.0 1.0
+  -1.0 1.0 1.0
+  -1.0 -1.0 -1.0
+  1.0 -1.0 -1.0
+  1.0 1.0 -1.0
+  -1.0 1.0 -1.0
+  Kd 0.5
+  Ks 0.1
+  Ka 0.4
+  Od 1.0 1.0 1.0
+  Os 1.0 1.0 1.0
+  Kgls 4.0
+
+# checker floor
+Checker
+  0.0 1.0 0.0
+  scale 4.0
+  modScale 1.0
+  Kd 0.5
+  Ks 0.1
+  Ka 0.4
+  Od 0.0 0.0 1.0
+  Os 1.0 1.0 1.0
+  Kgls 4.0
+  Kd 0.5
+  Ks 0.1
+  Ka 0.4
+  Od 1.0 1.0 1.0
+  Os 1.0 1.0 1.0
+  Kgls 4.0
+

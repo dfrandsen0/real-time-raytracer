@@ -1,0 +1,14 @@
+# Executables
+safety
+raytracer
+launchJava
+
+# Memory maps
+syncFile.txt
+sharedFile1.txt
+sharedFile2.txt
+
+# IntelliJ
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
