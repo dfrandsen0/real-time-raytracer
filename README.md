@@ -52,6 +52,7 @@ Once both pieces are up, you can interact with the program by using the followin
 
 ### Future Work
 
+- State Machine to standardize frame rate
 - Test the speed of sockets, to see if that would work better/faster than shared memory (seems unlikely, since we're caching significant amounts of data, and accessing it directly. However, it might work better and be more efficient for syncing between C and Java.
 - The cubes currently don't do anything, other than fly around. A good next step would be adding collisions and making them do something
 - Reflections could be added back in. They were removed not because they were too complex or expensive, but because I wasn't sure where to put them, without making the user sick (although that ... sometimes still happens)
